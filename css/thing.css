@@ -1,0 +1,81 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, span, ul, li
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, button
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body 
+{
+	width: 1000px;
+	margin: 20px auto !important;	
+}
+
+.row
+{	
+	width: 600px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.cell
+{
+	background: none;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin: 0 3px 0 3px;
+	border: 1px solid rgb(50, 50, 50);
+	border-radius: 5px;
+	box-shadow: 1px 1px 0 rgb(150, 150, 150);	
+	-webkit-transition: background 0.01s;
+}
+
+.cell.on 
+{
+	background: black;	
+	-webkit-transition: background 0.25s;
+}
+
+#run, #clear, #randomize
+{
+	width: 200px;
+	height: 50px;
+	margin: 20px;
+	border: 1px solid rgb(150, 150, 150);	
+	border-radius: 5px;
+	background: rgb(210, 210, 250);
+}
+
+#run:hover, #clear:hover, #randomize:hover
+{
+	background: rgb(200, 200, 200);
+	cursor: pointer;
+}
+
+#run:focus, #clear:focus, #randomize:focus
+{
+	outline: 0;
+}
+
+#container 
+{
+	text-align: center;		
+}
+
+#grid
+{	
+	width: 800px;
+	margin: 0px auto;	
+	margin-top: 50px;
+}
+
+#head
+{
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
